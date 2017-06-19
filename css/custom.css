@@ -1,0 +1,73 @@
+.bannner_img{
+    width: 100%;
+    height:auto;
+}
+#leftbanner{
+    background-image: url('../images/assignment-writing-1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+height:325px;
+border: 1px solid black;
+    border-radius: 5px;
+
+}
+#rightbanner{
+    background-image: url('../images/onlinehelpassignments_vertical.png');
+   background-repeat: no-repeat;
+    background-size: contain;
+
+
+    border-radius: 5px;
+    height: 239px;
+}
+.banner_container{
+    position: absolute;
+    padding: 0 30%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+.centered{
+    border: 1px solid darkblue;
+    text-align: center;
+    margin:10px 0;
+}
+.custom_form_control{
+text-align: center;
+
+    height: 60px;
+margin-bottom: 7px;
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+    background-color: #fff8c8;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    -webkit-box-shadow: 8px 8px 19px -3px rgba(86,128,75,1);
+    -moz-box-shadow: 8px 8px 19px -3px rgba(86,128,75,1);
+    box-shadow: 8px 8px 19px -3px rgba(86,128,75,1);
+
+}
+.custom_form_control_btn{
+
+    height: 60px;
+    margin-bottom: 7px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Alegreya', serif;
+    background-color: rgb(48, 90, 236);
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    -webkit-box-shadow: 8px 8px 19px -3px rgba(86,128,75,1);
+    -moz-box-shadow: 8px 8px 19px -3px rgba(86,128,75,1);
+    box-shadow: 8px 8px 19px -3px rgb(166, 210, 230);
+
+}
+.custom_form_control:hover{
+    background-color: #e0ffc5;
+}
+.custom_form_control:focus{
+    background-color: #dafff3;
+    box-shadow: 8px 8px 19px -3px rgb(155, 125, 123);
+}
